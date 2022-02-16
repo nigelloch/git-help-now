@@ -1,0 +1,12 @@
+.header {
+    border-bottom: gray solid;
+}
+.controls {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.searchbox {
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "git-help-now",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nigelloch/git-help-now.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nigelloch/git-help-now/issues"
+  },
+  "homepage": "https://github.com/nigelloch/git-help-now#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}

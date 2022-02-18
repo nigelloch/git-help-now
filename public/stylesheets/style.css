@@ -1,0 +1,37 @@
+.header {
+    border-bottom: gray solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.controls {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 50px;
+
+}
+.searchbox {
+    justify-content: right;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    margin: right 500px;
+    border: solid black;
+}
+.inline {
+    display: inline-block;
+}
+.img {
+    height: 100px;
+    width: 200px;
+    margin-left: 50px;
+    border: solid black;
+    box-shadow: 10px 10px 5px darkgray;
+}
+
+
+/* dark mode toggle ==============================================*/
+

@@ -12,29 +12,30 @@
   <div class="wrapper">
     <header class="header">
       <h1>
-        <a href="/">Just Tech News</a>
+        <img class="img" src="../public/images/ghnlogo3.png" alt="GHN Logo">
       </h1>
-      <textarea class="searchbox"></textarea>
-      <nav class="controls">
-        {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
+      <textarea class="searchbox inline"></textarea>
+      <nav class="controls inline">
+        <!-- {{#if loggedIn}} -->
+        <button id="logout" class="btn-style">logout</button>
+        <!-- {{else}} -->
+        <button id="login" class="btn-style">login</button>
+        <!-- <a href="/login">login</a> -->
+        <!-- {{/if}} -->
       </nav>
     </header>
     <main>
-      {{{ body }}}
+      <!-- {{{ body }}} -->
     </main>
     <footer>
-      Thanks for visiting!
+      
     </footer>
   </div>
 
-  {{#if loggedIn}}
+  <!-- {{#if loggedIn}} -->
   <!-- <script src="/javascript/logout.js"></script> -->
 
-  {{/if}}
+  <!-- {{/if}} -->
   
 </body>
 

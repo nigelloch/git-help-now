@@ -1,11 +1,12 @@
 body {
-    --color-primary: #002f95;
+    
+    /* --color-primary: #002f95;
     --color-primary-dark: #007f67;
     --color-secondary: #252c6a;
     --color-error: #cc3333;
     --color-success: #4bb544;
-    --border-radious: 4px; 
-
+    --border-radious: 4px;  */
+/* 
     margin: 0;
     height: 100vh;
     display: flex;
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     font-size: 18px;
     background: var(--color-primary);
-    background-size: cover;
+    background-size: cover; */
 }
 
 .container {
@@ -95,8 +96,20 @@ body {
     width: 500px;
     height: 40px;
     display: flex;
-    margin: right 500px;
     border: solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-style {
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  
 }
 .inline {
     display: inline-block;
@@ -105,6 +118,7 @@ body {
     height: 100px;
     width: 200px;
     margin-left: 50px;
+    margin-right: 50px;
     border: solid black;
     box-shadow: 10px 10px 5px darkgray;
 }

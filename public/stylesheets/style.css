@@ -22,7 +22,7 @@ body {
     margin: 1rem;
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radious);
+    border-radius: 25px;
     background: #fff;
 }
 
@@ -71,6 +71,14 @@ body {
     outline: none;
     background: #eeeeee;
     transition: background 0.2s, border-color 0.2s;
+}
+.email-field {
+    border-radius: 25px;
+    text-indent: 10px;
+}
+.password-field {
+    border-radius: 25px;
+    text-indent: 10px;
 }
 /*  /* 
 /*  */

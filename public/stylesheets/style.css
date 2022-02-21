@@ -84,6 +84,7 @@ body {
     align-items: center;
     background-color: antiquewhite;
     /* background-image: url(../images/header.jpg); */
+
 }
 .controls {
     display: flex;
@@ -91,6 +92,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-right: 50px;
+    display: inline-flex;
 
 }
 .searchbox {
@@ -104,6 +106,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 25px;
     text-indent: 20px;
+    display: flex;
 }
 .btn-style {
     border-radius: 25px;
@@ -113,10 +116,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
+    display: flex;
   
-}
-.inline {
-    display: inline-block;
 }
 .img {
     height: 100px;
@@ -125,6 +126,7 @@ body {
     margin-right: 50px;
     border: solid black;
     box-shadow: 10px 10px 5px darkgray;
+    display: inline-flex;
 }
 .modal {
     display: none;
@@ -166,6 +168,13 @@ body {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
   }
+
+  @media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+
+}
 
 /* dark mode toggle ==============================================*/
 

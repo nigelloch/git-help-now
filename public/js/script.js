@@ -1,21 +1,4 @@
-// const modal = document.getElementById('modal');
-// const modbtn = document.getElementsByClassName('login');
-// const span = document.getElementsByClassName('close')[0];
 
-
-// modbtn.onclick = function() {
-//     modal.style.display = 'block';
-// }
-
-// span.onclick = function() {
-//     modal.style.display = 'none';
-// }
-
-// window.onclick = function(event) {
-//     if (event.target == modal) {
-//         modal.style.display = 'none';
-//     }
-// }
 
 let modalBtn = document.getElementById("modalBtn")
 let modal = document.querySelector(".modal")
@@ -33,3 +16,23 @@ window.onclick = function(e){
     modal.style.display = "none"
   }
 }
+
+
+const checkbox = document.querySelector('input[name=mode]');
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition');
+            }, 1000)
+        }

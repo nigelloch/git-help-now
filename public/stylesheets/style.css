@@ -35,13 +35,18 @@ body {
     background-color: red;
     cursor: pointer;
 }
+.form__button:hover {
+    box-shadow: 0 0 8px  rgb(26, 26, 26);
+    border: 2px solid white;
+    background-color: rgb(114, 0, 0);
+}
 
 .form > *:first-child {
     margin-top: 0;
 }
 
 .form > *:last-child {
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .form__title {
@@ -64,6 +69,14 @@ body {
 
 .form__input-group {
     margin-bottom: 1rem;
+}
+.form__input-group-new-user {
+    margin-bottom: 1rem;
+
+}
+
+.form__text {
+    color: black;
 }
 
 .form__input {
@@ -94,8 +107,14 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: lightgray;
+    position: fixed;
+    min-width: 100%;
     /* background-image: url(../images/header.jpg); */
 
+}
+.modetoggle {
+    display: inline-block;
+    cursor: pointer;
 }
 .controls {
     display: flex;
@@ -105,6 +124,7 @@ body {
     padding-right: 50px;
     display: inline-flex;
 
+    
 }
 .searchbox {
     justify-content: right;
@@ -129,7 +149,14 @@ body {
     color: white;
     display: inline-block;
     cursor: pointer;
+
 }
+.btn-style:hover {
+    box-shadow: 0 0 10px  rgb(26, 26, 26);
+    border: solid white;
+    background-color: rgb(114, 0, 0);
+}
+
 .img {
     height: 100px;
     width:180px;
@@ -154,15 +181,16 @@ body {
     display: flex;
 }
 .bat-text {
-    position: absolute;
+    position: fixed;
     bottom: 112px;
     right: 11px;
     color: rgb(150, 2, 2);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+
 }
 .showtimes {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     right: 55px;
     color: rgb(150, 2, 2);

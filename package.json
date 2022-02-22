@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nigelloch/git-help-now#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "sass": "^1.49.7"
   }
 }

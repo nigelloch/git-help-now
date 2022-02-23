@@ -149,12 +149,16 @@ body {
     color: white;
     display: inline-block;
     cursor: pointer;
-
 }
+
 .btn-style:hover {
     box-shadow: 0 0 10px  rgb(26, 26, 26);
     border: solid white;
     background-color: rgb(114, 0, 0);
+}
+.order {
+    order: -1;
+    margin-left: 50px;
 }
 
 .img {

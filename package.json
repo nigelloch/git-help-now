@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "scss": "node-sass --watch scss -o css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+>>>>>>> bae5b7774b013495fb0774e258d4b40104ad5a37
   },
   "repository": {
     "type": "git",
@@ -19,6 +24,7 @@
   },
   "homepage": "https://github.com/nigelloch/git-help-now#readme",
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^4.0.1",
     "connect-session-sequelize": "^6.1.1",
     "dotenv": "^8.2.0",
@@ -31,4 +37,12 @@
     "sass": "^1.49.7",
     "sequelize": "^5.21.5"
   }
+=======
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sass": "^1.49.7",
+    "sequelize": "^6.16.2"
+  },
+  "devDependencies": {}
+>>>>>>> bae5b7774b013495fb0774e258d4b40104ad5a37
 }

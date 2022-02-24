@@ -1,0 +1,57 @@
+<div class="container">
+  <!-- Where are we going with this? Should we use separate style sheets? -->
+  <!-- <link rel="stylesheet" href="login.css"> -->
+  <form class="form" id="search">
+    <h1 class="form__title">Search</h1>
+    <!-- Conditionally render this error message? -->
+    <!-- <div class="form__message form__message--error"></div> -->
+    <div class="form__input-group">
+      <input
+        type="text"
+        class="form__input questionInput"
+        autofocus
+        placeholder="What would you like to know?"
+      />
+      <!-- ... or conditionally render this error message? -->
+      <!-- <div class="form__input-error-message">This is an error message</div> -->
+    </div>
+    <button class="form__button search" type="submit">Search</button>
+  </form>
+</div>
+
+<!-------------------------------- Blog Section-------------------------->
+<div class="container">
+  <div class="row" id="questions">
+    <body ng-app="blogApp">
+      <div ng-controller="BlogController as blog">
+        <div class="topbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-s-4">
+                <h1 ng-click="blog.selectTab('blog')" class="push-left">
+                  Add or Check Out Posts
+                </h1>
+              </div>
+              <div class="offset-s-4 col-s-4">
+                <nav role="navigation" class="push-right">
+                  <ul>
+                    <li>
+                      <a href="#" ng-click="blog.selectTab('blog')"
+                        >See All Posts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" ng-click="blog.selectTab('new')"
+                        >Add New Post</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </div>
+</div>

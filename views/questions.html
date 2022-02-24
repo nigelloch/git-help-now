@@ -47,53 +47,25 @@
 		</form>   
 	</div>
 
-<!-------------------------------- Blog Section-------------------------->
 	<div class="container">
 		<div class="row" id="questions">
-		<body ng-app="blogApp">
-  
-<div ng-controller="BlogController as blog">
-	<div class="topbar">
-		<div class="container">
-		<div class="row">
-			<div class="col-s-4">
-	<h1 ng-click="blog.selectTab('blog')" class="push-left"> Add or Check Out Posts </h1>
-</div>
-	 <div class="offset-s-4 col-s-4">
-	<nav role='navigation' class="push-right">
-		 <ul>
-		<li><a href="#" ng-click="blog.selectTab('blog')">See All Posts</a></li>
-		<li><a href="#" ng-click="blog.selectTab('new')">Add New Post</a></li>
-		</ul>
-			</nav> 
+			<!-- HTML for js function when ready -->
+			<!-- classnames are "bootstrap ready" and also serve to show intended latour -->
+			<div class="col col-10">QUESTION PLACEHOLDER</div>
+			<div class="col col-2">
+				<button>LIKE</button>
+				<button>DISLIKE</button>
+			</div>
+			<!-- Most likely we will use JS map to iterate through array (from DB) to generate text here -->
+			<div class="col col-10">COMMENTS PLACEHOLDER</div>
+			<div class="col col-2">
+				<button>LIKE</button>
+				<button>DISLIKE</button>
+			</div>
+
+
 		</div>
 	</div>
-</div>
-					  				  
-</div>
-				   
-	<div class="content">
- <div class="container">
-	<div class="row">
-		 <ul class="post-grid" ng-show="blog.isSelected('blog')">
-	
-		 <h2>Post title</h2>
-		 <p> Post info </p>
-<div>
-		
-		<h2>Comments</h2>
-		<p> Comment info </p>
-	<input type="submit" value="Submit" />
-	 </form>
-
-	  </div>
-	</div>
-</div>
-	 <div class="post" 
-	
-						
-	
-		
  
     <!-- I moved this footer below everything else. Do we want a footer? -->
     <!-- <footer>

@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS ----enter db name
+DROP DATABASE IF EXISTS git_help_db
 
-CREATE DATABASE ----enter db name
+CREATE DATABASE git_help_db

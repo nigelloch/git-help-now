@@ -1,23 +1,14 @@
 {
-  "name": "git-help-now",
+  "name": "hacker-news-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "scss": "node-sass --watch scss -o css",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nigelloch/git-help-now.git"
+    "test": "jest",
+    "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nigelloch/git-help-now/issues"
-  },
-  "homepage": "https://github.com/nigelloch/git-help-now#readme",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "connect-session-sequelize": "^6.1.1",
@@ -26,11 +17,7 @@
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
     "handlebars": "^4.7.3",
-    "m": "^1.7.0",
-    "ms": "^2.1.3",
     "mysql2": "^2.1.0",
-    "node-sass": "^7.0.1",
-    "sass": "^1.49.7",
-    "sequelize": "^6.16.2"
+    "sequelize": "^5.21.5"
   }
 }

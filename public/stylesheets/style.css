@@ -63,6 +63,7 @@
     background-color: lightgray;
     position: fixed;
     min-width: 100%;
+    top: 0;
 }
 .modetoggle {
     display: inline-block;
@@ -203,6 +204,14 @@
   }
   .close-btn:hover {
     color: darkgray;
+  }
+
+  .post-list {
+    margin: 50px;
+    padding: 150px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
   }
 /* //   @-webkit-keyframes animatetop {
 //     from {top:-300px; opacity:0} 

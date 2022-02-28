@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS git_help_db;
+DROP DATABASE IF EXISTS newsfeed_db;
 
-CREATE DATABASE git_help_db;
+CREATE DATABASE newsfeed_db;

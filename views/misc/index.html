@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Help Now!</title>
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>
+        <img class="img" src="../public/images/ghnlogo3.png" alt="GHN Logo">
+      </h1>
+      <input type="text"placeholder="What would you like to learn?" class="searchbox inline"></input>
+      <nav class="controls inline">
+        <!-- {{#if loggedIn}} -->
+        <!-- <button id="logout" class="btn-style">logout</button> -->
+        <!-- {{else}} -->
+        <button id='modalBtn' class="btn-style modalBtn">Log In</button>
+        <!-- <a href="/login">login</a> -->
+        <!-- {{/if}} -->
+      </nav>
+    </header>
+    <main>
+      <!-- {{{ body }}} -->
+
+
+  <!-- {{#if loggedIn}} -->
+<!-- modal content -->
+  
+<div class="modal">
+  <div class="container modal-content">
+    <span class="close-btn">&times;</span>
+    <form class="form" id="login">
+        <h1 class="form__title">Login</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" autofocus placeholder="Username or email">
+            <div class="form__input-error-message">This is an error message</div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <button class="form__button" type="submit">Continue</button>
+        <p class="form__text">
+            <a href="#" class="form__link">Forgot your password?</a>
+        </p>
+        <p class="form__text">
+            <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create an account?</a>
+        </p>
+    </form>
+  </div>
+</div>
+  <!-- <script src="/javascript/logout.js"></script> -->
+
+  <!-- {{/if}} -->
+
+  </div>
+</body>
+</main>
+<footer>
+  
+</footer>
+</div>
+
+<script src="../public/js/script.js"></script>
+</html>

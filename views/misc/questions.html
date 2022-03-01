@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type = "text/javascript" src="../search.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Help Now!</title>
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <link rel="stylesheet" href="../public/stylesheets/questions.css">
+  <!--  -->
+</head>
+
+<body>
+	<div class="container">
+    	<header class="header">
+			<h1>
+				<img class="img" src="../public/images/ghnlogo3.png" alt="GHN Logo">
+			</h1>
+			<nav class="controls inline">
+				<!-- {{#if loggedIn}} -->
+				<!-- <button id="logout" class="btn-style">logout</button> -->
+				<!-- {{else}} -->
+				<button id="login" class="btn-style">Log In</button>
+				<!-- <a href="/login">login</a> -->
+				<!-- {{/if}} -->
+			</nav>
+		</header>
+		<!-- <main>
+		{{{ body }}}
+		</main> -->
+	</div>
+
+
+	<div class="container">
+		<!-- Where are we going with this? Should we use separate style sheets? -->
+  		<!-- <link rel="stylesheet" href="login.css"> -->
+		<form class="form" id="search">
+			<h1 class="form__title">Search</h1>
+			<!-- Conditionally render this error message? -->
+			<!-- <div class="form__message form__message--error"></div> -->
+				<div class="form__input-group">
+					<input id="find" type="text" class="form__input questionInput" autofocus placeholder="What would you like to know?">
+					<!-- ... or conditionally render this error message? -->
+					<!-- <div class="form__input-error-message">This is an error message</div> -->
+				</div>
+			<button onClick="searchFunction(document.getElementById('find').value)" class="form__button search" type="submit">Search</button>
+		</form>   
+	</div>
+
+<!-------------------------------- Blog Section-------------------------->
+	<div class="container">
+		<div class="row" id="questions">
+		<body ng-app="blogApp">
+  
+<div ng-controller="BlogController as blog">
+	<div class="topbar">
+		<div class="container">
+		<div class="row">
+			<div class="col-s-4">
+	<h1 ng-click="blog.selectTab('blog')" class="push-left"> Add or Check Out Posts </h1>
+</div>
+	 <div class="offset-s-4 col-s-4">
+	<nav role='navigation' class="push-right">
+		 <ul>
+		<li><a href="#" ng-click="blog.selectTab('blog')">See All Posts</a></li>
+		<li><a href="#" ng-click="blog.selectTab('new')">Add New Post</a></li>
+		</ul>
+			</nav> 
+		</div>
+	</div>
+</div>
+					  				  
+</div>
+				   <!-- {{#if loggedIn}} -->
+	<div class="content">
+ <div class="container">
+	<div class="row">
+		 <ul class="post-grid" ng-show="blog.isSelected('blog')">
+	
+		 <h2>Post title</h2>
+		 <p> Post info </p>
+<div>
+		
+		<h2>Comments</h2>
+		<p> Comment info </p>
+	<input type="submit" value="Submit" />
+	 </form>
+
+	  </div>
+	</div>
+</div>
+	 <div class="post" 
+	
+						
+	
+		
+ 
+    <!-- I moved this footer below everything else. Do we want a footer? -->
+    <!-- <footer>
+
+    </footer> -->
+ 
+  <!-- <script src="/javascript/logout.js"></script> -->
+
+  <!-- {{/if}} -->
+  
+</body>
+
+</html>
